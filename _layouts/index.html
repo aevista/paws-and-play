@@ -4,9 +4,23 @@
           <meta content="{{ page.title }} - {{ site.title }}" name="title" />
     </head>
     <body>
-        <div id="logoname">
-            <h1>Frankies Paws &nbsp;And Play</h1>
-            <p> Professional Pet Sitter </p>
+        <div class="imagecontainer">
+            <img id="solidbackgroundimage" src="./assets/images/solidbackground.jpg"/>
+            <img id="backgroundimage" src="./assets/images/pnpbackground.jpg"/>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6 col-lg-offset-3 col-md-offset-4 col-sm-offset-3 col-xs-offset-6">
+                    <div class="jumbotron headertitle" style="background:transparent !important" >
+                            <h1 id="title" class="display-3">Frankies Paws And Play</h1>
+                            <div class="hidden-xs">
+                                <p id="subtitle"> Professional Pet Sitter </p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            {%  include foot.html %}
         </div>
     </body>
-</html>
+    </html>
