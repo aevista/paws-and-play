@@ -7,16 +7,37 @@
     z-index: -1;
 
 }
+
+.jumbotron {
+    height: 110px;
+}
 .headertitle {
     padding-top: 0;
     margin-top: 0;
 }
+
+.navbar {
+    border: 0;
+}
+
+.navbar-default .navbar-collapse {
+    border: 0;
+}
+
+.ddm {
+    position: absolute;
+    right: 20px;
+    z-index: 1;
+    width: 100px;
+    border-style: none;
+}
+
 #backgroundimage {
     width: 100%;
     max-width: 1200px;
     max-height: 600px;
     min-width: 700px;
-    z-index: 0;
+    z-index: -1;
     left:0;
     position: absolute;
     
@@ -30,14 +51,30 @@
     z-index: -1;
 }
 #logoname {
-     z-index: 1;
+    z-index: 1;
     display: block;
     line-height: 1em;
 }
 
-h1#title{
+p {
+    font-family: Verdana;
+    font-size: 18px;
+    color: #555555;
+    line-height: 1.5;
+    letter-spacing: .25px;
+    text-rendering: optimizeLegibility;
+}
+
+h3, h2 {
+    font-family: 'Kaushan Script',cursive;
+    color: #88a158;
+    font-weight: 600;
+    text-align: center;
+}
+
+h1#title {
     font-family: 'Kaushan Script', cursive;
-    font-size: calc(20px + 2.5vw);
+    font-size: calc(25px + 2.5vw);
     font-weight: 600;
     letter-spacing: -1px;
     line-height: .8;
@@ -45,10 +82,10 @@ h1#title{
     color: #EE82EE;
     z-index: 2;
 }
-p#subtitle{
+#subtitle {
     text-align: center;
     font-weight: bold;
-    font-size:calc(10px + .5vw);
+    font-size:calc(12px + .4vw);
     color: #cc9900;;
     display: block;
     z-index: 3;
@@ -62,6 +99,81 @@ p#subtitle{
 }
 
 #myImg:hover {opacity: 0.7;}
+
+
+#navigation {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    float: left;
+    width: 200px;
+    height: 275px;
+    border-radius: 10px;
+    border: solid 1px #dfffd6;
+    background-color: #ebf7d6;
+
+}
+
+.doggies {
+    width: 100%;
+}
+
+#navigation p {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.navlinks {
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    padding: 4px;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: "Lato",sans-serif;
+    color: #78345e;
+    z-index: 1;
+}
+
+#content-body-title {
+    padding-top: 25px;
+}
+
+.navlinks:hover {
+    background-color: #efffea;
+    border-radius: 10px;
+}
+
+.green-line {
+    margin-top: 15px;
+    height: 5px;
+    border: solid 1px #dfffd6;
+    background-color: #ebf7d6;
+    border-radius: 10px;
+}
+
+.subcontent {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.footer {
+    margin: 0 auto;
+    margin-top: 10px;
+    height: 75px;
+    border: solid 1px #dfffd6;
+    background-color: #ebf7d6;
+    border-radius: 10px;
+}
+
+a:hover, a:visited, a:active {
+    text-decoration: none;
+    z-index: 2;
+}
 
 /* The Modal (background) */
 .modal {
