@@ -148,10 +148,6 @@ h1#title {
     z-index: 1;
 }
 
-#content-body-title {
-    padding-top: 25px;
-}
-
 .navlinks:hover {
     background-color: #efffea;
     border-radius: 10px;
