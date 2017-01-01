@@ -1,0 +1,8 @@
+<div class="list-group">
+	<a href="{{site.baseurl}}/"><li class="navlinks">Welcome</li></a>
+	{% for link in site.links %}
+		<a href="{{site.baseurl}}{{link.url}}" target="_self">
+			<li class="navlinks">{{link.name}}</li>
+		</a>
+	{% endfor %}
+</div>

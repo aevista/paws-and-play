@@ -8,6 +8,10 @@
 
 }
 
+.photos-container {
+    padding:50px;
+}
+
 .jumbotron {
     height: 110px;
 }
@@ -58,7 +62,7 @@
 
 p {
     font-family: Verdana;
-    font-size: 18px;
+    font-size: 16px;
     color: #555555;
     line-height: 1.5;
     letter-spacing: .25px;
@@ -66,9 +70,14 @@ p {
 }
 
 h3, h2 {
+    text-align: left;
     font-family: 'Kaushan Script',cursive;
     color: #88a158;
     font-weight: 600;
+    
+}
+
+.header-center {
     text-align: center;
 }
 
@@ -164,6 +173,7 @@ h1#title {
 .footer {
     margin: 0 auto;
     margin-top: 10px;
+    margin-bottom: 20px;
     height: 75px;
     border: solid 1px #dfffd6;
     background-color: #ebf7d6;

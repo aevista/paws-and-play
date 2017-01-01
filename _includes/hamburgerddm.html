@@ -13,10 +13,10 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Welcome <span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Photos</a></li>
+        <li class="active"><a href="{{site.baseurl}}/">Welcome <span class="sr-only">(current)</span></a></li>
+        {% for link in site.links %}
+          <li><a href="{{site.baseurl}}{{link.url}}" target="_self">{{link.name}}</a></li>
+        {% endfor %}
       </ul>
     </div><!-- /.navbar-collapse -->
  <!-- /.container-fluid -->
