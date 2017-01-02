@@ -3,7 +3,8 @@ var onresize = function() {
     var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
     var background = document.getElementById("backgroundimage"); 
     
-    background.style.left = (width <= 1340 ?  "0" : "20%");
+    background.style.left = (width * 0.01).toString() +"%";
+    if (width <= 1340) background.style.left = "0";
 };
 
 $(document).ready(function() {
