@@ -1,6 +1,6 @@
 <html>
     <head>
-        {%  include head.html%}
+        {%  include head.html %}
           <meta content="{{ page.title }} - {{ site.title }}" name="title" />
         <title>{{site.title}} {% if page.title %} | {% endif %}{{page.title}} </title>
         <link rel="shortcut icon" type="image/x-icon" href="{{site.favicon}}?v=2" />
@@ -18,14 +18,16 @@
             </div>
             <div class="grid">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6 col-lg-offset-3 col-md-offset-4 col-sm-offset-3 col-xs-offset-5">
-                        <div class="jumbotron headertitle" style="background:transparent !important" >
-                                <h1 id="title" class="display-3">Frankies Paws And Play</h1>
-                                <div class="hidden-xs">
-                                    <div id="subtitle"> Professional Pet Sitter </div>
-                                </div>
+                    <a target="_self" href="{{site.baseurl}}/">
+                        <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6 col-lg-offset-3 col-md-offset-4 col-sm-offset-3 col-xs-offset-5">
+                            <div class="jumbotron headertitle" style="background:transparent !important" >
+                                    <h1 id="title" class="display-3">Frankies Paws And Play</h1>
+                                    <div class="hidden-xs">
+                                        <div id="subtitle"> Professional Pet Sitter </div>
+                                    </div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div> <!-- row 1 -->
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-0">

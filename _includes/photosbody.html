@@ -1,8 +1,8 @@
 <div class="photos-container">
 	{% for image in site.static_files %}
-	    {% if image.path contains 'images' %}
-	    	<a class="fancybox-thumb" rel="fancybox-thumb" href="{{site.baseurl}}{{image.path}}">
-	    		<img alt="" src="{{site.baseurl}}{{image.path}}" width="150" height="100"/>
+	    {% if image.path contains 'images/photospage' %}
+	    	<a class="magnific" rel="fancybox-thumb" href="{{site.baseurl}}{{image.path}}">
+	    		<img alt="" src="{{site.baseurl}}{{image.path}}" width="90" height="90" style="object-fit: cover; object-position: 0 0"/>
 	    	</a>
 	    {% endif %}
 	{% endfor %}

@@ -1,15 +1,24 @@
 
 var onresize = function() {
     var width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0)
-    var elmt = document.getElementById("backgroundimage");
-    var content_body_title = document.getElementById("content-body-title");
-
-    elmt.style.left = (width * 0.15).toString();
+    var background = document.getElementById("backgroundimage"); 
     
-    if (width <= 1340) { elmt.style.left = "0"; }
+    background.style.left = (width <= 1340 ?  "0" : "20%");
 };
 
 $(document).ready(function() {
-    $(".fancybox-thumb").fancybox();
+    $(".magnific").magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true 
+        },
+        zoom: {
+            enabled: true,
+            duration: 300, // don't foget to change the duration also in CSS
+            opener: function(element) {
+                return element.find('img');
+            }
+        }
+    });
     $( window ).resize(onresize());
 });
