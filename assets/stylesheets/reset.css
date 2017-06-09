@@ -1,0 +1,55 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+.row-service-buffer html, .row-service-buffer body, .row-service-buffer div, .row-service-buffer span, .row-service-buffer 
+.row-service-buffer applet, .row-service-buffer object, .row-service-buffer iframe,
+.row-service-buffer h1, .row-service-buffer h2, .row-service-buffer h3, .row-service-buffer h4, .row-service-buffer h5, 
+.row-service-buffer h6, .row-service-buffer p, .row-service-buffer blockquote, .row-service-buffer pre,
+.row-service-buffer a, .row-service-buffer abbr, .row-service-buffer acronym, .row-service-buffer address, 
+.row-service-buffer big, .row-service-buffer cite, .row-service-buffer code,
+.row-service-buffer del, .row-service-buffer dfn, .row-service-buffer em, .row-service-buffer img, .row-service-buffer ins, 
+.row-service-buffer kbd, .row-service-buffer q, .row-service-buffer s, .row-service-buffer samp,
+.row-service-buffer small, .row-service-buffer strike, .row-service-buffer strong, .row-service-buffer sub, 
+.row-service-buffer sup, .row-service-buffer tt, .row-service-buffer var,
+.row-service-buffer b, .row-service-buffer u, .row-service-buffer i, .row-service-buffer center,
+.row-service-buffer dl, .row-service-buffer dt, .row-service-buffer dd, .row-service-buffer ol, .row-service-buffer ul, 
+.row-service-buffer li, .row-service-buffer fieldset, .row-service-buffer form, .row-service-buffer label, .row-service-buffer legend,
+.row-service-buffer table, .row-service-buffer caption, .row-service-buffer tbody, .row-service-buffer tfoot, 
+.row-service-buffer thead, .row-service-buffer tr, .row-service-buffer th, .row-service-buffer td,
+.row-service-buffer article, .row-service-buffer aside, .row-service-buffer canvas, .row-service-buffer details, .row-service-buffer embed, 
+.row-service-buffer figure, .row-service-buffer figcaption, .row-service-buffer footer, .row-service-buffer header, 
+.row-service-buffer hgroup, .row-service-buffer menu, .row-service-buffer nav, .row-service-buffer output, .row-service-buffer ruby, .row-service-buffer section, 
+.row-service-buffer summary, .row-service-buffer time, .row-service-buffer mark, .row-service-buffer audio, .row-service-buffer video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+.row-service-buffer article, .row-service-buffer aside, .row-service-buffer details, .row-service-buffer figcaption, .row-service-buffer figure, 
+.row-service-buffer footer, .row-service-buffer header, .row-service-buffer hgroup, .row-service-buffer menu, 
+.row-service-buffer nav, .row-service-buffer section, .row-service-buffer main {
+	display: block;
+}
+.row-service-buffer body {
+	line-height: 1;
+}
+.row-service-buffer ol, .row-service-buffer ul {
+	list-style: none;
+}
+.row-service-buffer blockquote, q {
+	quotes: none;
+}
+.row-service-buffer blockquote:before, b.row-service-buffer lockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+.row-service-buffer table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}

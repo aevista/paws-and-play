@@ -1,7 +1,7 @@
 <html>
     <head>
         {%  include head.html %}
-          <meta content="{{ page.title }} - {{ site.title }}" name="title" />
+        <meta content="{{ page.title }} - {{ site.title }}" name="title" />
         <title>{{site.title}} {% if page.title %} | {% endif %}{{page.title}} </title>
         <link rel="shortcut icon" type="image/x-icon" href="{{site.favicon}}?v=2" />
     </head >
@@ -19,54 +19,46 @@
                 <div class="row">
                     <a target="_self" href="{{site.baseurl}}/">
                         <div class="col-lg-6 col-md-6 col-sm-7 col-xs-6 col-lg-offset-3 col-md-offset-4 col-sm-offset-3 col-xs-offset-5">
-                            <div class="jumbotron headertitle" style="background:transparent !important" >
-                                    <h1 id="title" class="display-3">Frankies Paws And Play</h1>
-                                    <div class="hidden-xs">
-                                        <div id="subtitle"> Professional Pet Sitter </div>
-                                    </div>
+                            <div class="headertitle" style="background:transparent !important" >
+                                <h1 id="title" class="display-3">Frankies Paws And Play</h1>
+                                <div class="hidden-xs">
+                                    <div id="subtitle"> Professional Pet Sitter </div>
+                                </div>
                             </div>
                         </div>
                     </a>
                 </div> <!-- row 1 -->
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-0">
-                        <div class="hidden-xs">
-                            <ul id="navigation">
-                                {% include links.html %}
-                            </ul>
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-3 col-sm-4 hidden-xs">
+                        <ul class="row row-buffer col-lg-12 col-md-12 col-sm-12" id="navigation">
+                            {% include links.html %}
+                        </ul>
+                        <div class="row col-lg-12 col-md-12 col-sm-12">
+                            <div id="navigation"> 
+                                <h3 class="header-center"> Info </h3>
+                                <center>Daily Walks Starting From $16.00-$20.00 Per Visit</center><br>
+                                <br>
+                                <img src="{{site.phoneicon}}"/>
+                                (469) 212-3737 <br>
+                                <br>
+                                <img src="{{site.emailicon}}"/>
+                                <a href="mailto:frankiespawsandplay@gmail.com">frankiespawsandplay</a><br>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12"> 
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12 clearfix">
                         {% if page.body %}
-                            {% include {{page.body}} %}
+                            <div class="row row-buffer col-lg-12 col-md-12 col-sm-12"> 
+                                {% include {{page.body}} %}
+                            </div>
+                        {% endif %}
+                        {% if page.sub_body %}
+                            <div class="row col-lg-12 col-md-12 col-sm-12">
+                                {% include {{page.sub_body}} %}
+                            </div>
                         {% endif %}
                     </div>
                 </div> <!-- row 2 -->
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-4">
-                        <div class="hidden-xs">
-                            <div id="navigation"> 
-                                <h3 class="header-center"> Rates </h3>
-                                <p> Daily Walks Starting From $12.00-$22.00 Per Visit. Contact us with your needs and we'll Taylor a schedule that works for your specific needs.. 
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
-                        {% if page.sub_body %}
-                            {% include {{page.sub_body}} %}
-                        {% endif %}
-                    </div>
-                </div> <!-- row 3 -->
-                <div class="row">
-                    <div class="col-lg-3 col-md-3 col-sm-4">
-                        <div class="hidden-lg hidden-md hidden-sm">
-                          <div id="navigation"> 
-                                <h3 class="header-center"> Rates </h3>
-                                <p> Daily Walks Starting From $12.00-$22.00 Per Visit. Contact us with your needs and we'll Taylor a schedule that works for your specific needs.. 
-                            </div>
-                        </div>
-                    </div>
-                </div> <!-- row 4 -->
                 <div class="row col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs footer">    
                 </div> <!-- row 5 -->
             </div><!-- grid -->

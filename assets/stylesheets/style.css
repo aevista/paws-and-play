@@ -13,9 +13,6 @@
     padding:50px;
 }
 
-.jumbotron {
-    height: 110px;
-}
 .headertitle {
     padding-top: 0;
     margin-top: 0;
@@ -35,6 +32,10 @@
     z-index: 1;
     width: 100px;
     border-style: none;
+}
+
+.row-buffer {
+    margin-top:60px;
 }
 
 #backgroundimage {
@@ -83,7 +84,7 @@ h3, h2 {
 
 h1#title {
     font-family: 'Kaushan Script', cursive;
-    font-size: calc(30px + 2vw);
+    font-size: calc(30px + 1.6vw);
     font-weight: 600;
     letter-spacing: -1px;
     line-height: .8;
@@ -161,11 +162,6 @@ h1#title {
     border-radius: 10px;
 }
 
-.subcontent {
-    display: inline-block;
-    vertical-align: bottom;
-}
-
 .footer {
     margin: 0 auto;
     margin-top: 10px;
@@ -180,3 +176,5 @@ a:hover, a:visited, a:active {
     text-decoration: none;
     z-index: 2;
 }
+
+
