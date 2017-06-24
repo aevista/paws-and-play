@@ -437,7 +437,7 @@ Main Components
 }
 
 .cd-pricing-features {
-  width: 600px;
+  width: 400px;
 }
 .cd-pricing-features:after {
   content: "";
@@ -448,9 +448,8 @@ Main Components
   width: 100px;
   float: left;
   padding: 1.6em 1em;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   text-align: center;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }

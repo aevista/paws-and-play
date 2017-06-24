@@ -34,6 +34,13 @@
     border-style: none;
 }
 
+.ddm-nav {
+    background-color: rgba(221,221,221, .9);
+}
+.navbar-toggle {
+    background-color: #ddd;
+}
+
 .row-buffer {
     margin-top:0px;
 }
