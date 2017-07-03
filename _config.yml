@@ -26,6 +26,7 @@ github_username:  jekyll
 favicon: ./assets/images/favicon.ico
 emailicon: ./assets/images/email_icon.png
 phoneicon: ./assets/images/phone_icon.png
+facebookicon: ./assets/images/facebook_icon.png
 
 
 # Build settings

@@ -9,6 +9,11 @@
 
 }
 
+.icon {
+    height: 24px;
+    width: 24px;
+}
+
 .photos-container {
     padding:50px;
 }
@@ -29,7 +34,7 @@
 .ddm {
     position: absolute;
     right: 20px;
-    z-index: 1;
+    z-index: 6;
     width: 100px;
     border-style: none;
 }
